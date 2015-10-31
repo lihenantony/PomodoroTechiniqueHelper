@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TasksDataSet" targetNamespace="http://tempuri.org/TasksDataSet.xsd" xmlns:mstns="http://tempuri.org/TasksDataSet.xsd" xmlns="http://tempuri.org/TasksDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TasksDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="TasksDataSet" msprop:Generator_UserDSName="TasksDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TasksDataSetTable" msprop:Generator_TableClassName="TasksDataSetTableDataTable" msprop:Generator_TableVarName="tableTasksDataSetTable" msprop:Generator_TablePropName="TasksDataSetTable" msprop:Generator_RowDeletingName="TasksDataSetTableRowDeleting" msprop:Generator_RowChangingName="TasksDataSetTableRowChanging" msprop:Generator_RowEvHandlerName="TasksDataSetTableRowChangeEventHandler" msprop:Generator_RowDeletedName="TasksDataSetTableRowDeleted" msprop:Generator_UserTableName="TasksDataSetTable" msprop:Generator_RowChangedName="TasksDataSetTableRowChanged" msprop:Generator_RowEvArgName="TasksDataSetTableRowChangeEvent" msprop:Generator_RowClassName="TasksDataSetTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="studySessionDateTime" msprop:Generator_ColumnVarNameInTable="columnstudySessionDateTime" msprop:Generator_ColumnPropNameInRow="studySessionDateTime" msprop:Generator_ColumnPropNameInTable="studySessionDateTimeColumn" msprop:Generator_UserColumnName="studySessionDateTime" type="xs:string" minOccurs="0" />
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name" type="xs:string" minOccurs="0" />
+              <xs:element name="type" msprop:Generator_ColumnVarNameInTable="columntype" msprop:Generator_ColumnPropNameInRow="type" msprop:Generator_ColumnPropNameInTable="typeColumn" msprop:Generator_UserColumnName="type" type="xs:string" minOccurs="0" />
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status" type="xs:string" minOccurs="0" />
+              <xs:element name="reminder" msprop:Generator_ColumnVarNameInTable="columnreminder" msprop:Generator_ColumnPropNameInRow="reminder" msprop:Generator_ColumnPropNameInTable="reminderColumn" msprop:Generator_UserColumnName="reminder" type="xs:string" minOccurs="0" />
+              <xs:element name="iseasy" msprop:Generator_ColumnVarNameInTable="columniseasy" msprop:Generator_ColumnPropNameInRow="iseasy" msprop:Generator_ColumnPropNameInTable="iseasyColumn" msprop:Generator_UserColumnName="iseasy" type="xs:string" minOccurs="0" />
+              <xs:element name="isimportant" msprop:Generator_ColumnVarNameInTable="columnisimportant" msprop:Generator_ColumnPropNameInRow="isimportant" msprop:Generator_ColumnPropNameInTable="isimportantColumn" msprop:Generator_UserColumnName="isimportant" type="xs:string" minOccurs="0" />
+              <xs:element name="estimateTomato" msprop:Generator_ColumnVarNameInTable="columnestimateTomato" msprop:Generator_ColumnPropNameInRow="estimateTomato" msprop:Generator_ColumnPropNameInTable="estimateTomatoColumn" msprop:Generator_UserColumnName="estimateTomato" type="xs:string" minOccurs="0" />
+              <xs:element name="tomatoSequence" msprop:Generator_ColumnVarNameInTable="columntomatoSequence" msprop:Generator_ColumnPropNameInRow="tomatoSequence" msprop:Generator_ColumnPropNameInTable="tomatoSequenceColumn" msprop:Generator_UserColumnName="tomatoSequence" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

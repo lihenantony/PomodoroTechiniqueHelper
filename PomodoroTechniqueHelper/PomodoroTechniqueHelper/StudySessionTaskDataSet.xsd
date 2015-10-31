@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="StudySessionTaskDataSet" targetNamespace="http://tempuri.org/StudySessionTaskDataSet.xsd" xmlns:mstns="http://tempuri.org/StudySessionTaskDataSet.xsd" xmlns="http://tempuri.org/StudySessionTaskDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="StudySessionTaskDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="StudySessionTaskDataSet" msprop:Generator_UserDSName="StudySessionTaskDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="StudySessionTaskDataSetTable" msprop:Generator_TableClassName="StudySessionTaskDataSetTableDataTable" msprop:Generator_TableVarName="tableStudySessionTaskDataSetTable" msprop:Generator_RowChangedName="StudySessionTaskDataSetTableRowChanged" msprop:Generator_TablePropName="StudySessionTaskDataSetTable" msprop:Generator_RowDeletingName="StudySessionTaskDataSetTableRowDeleting" msprop:Generator_RowChangingName="StudySessionTaskDataSetTableRowChanging" msprop:Generator_RowEvHandlerName="StudySessionTaskDataSetTableRowChangeEventHandler" msprop:Generator_RowDeletedName="StudySessionTaskDataSetTableRowDeleted" msprop:Generator_RowClassName="StudySessionTaskDataSetTableRow" msprop:Generator_UserTableName="StudySessionTaskDataSetTable" msprop:Generator_RowEvArgName="StudySessionTaskDataSetTableRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="studySessionDateTime" msprop:Generator_ColumnVarNameInTable="columnstudySessionDateTime" msprop:Generator_ColumnPropNameInRow="studySessionDateTime" msprop:Generator_ColumnPropNameInTable="studySessionDateTimeColumn" msprop:Generator_UserColumnName="studySessionDateTime" type="xs:string" minOccurs="0" />
+              <xs:element name="highest" msprop:Generator_ColumnVarNameInTable="columnhighest" msprop:Generator_ColumnPropNameInRow="highest" msprop:Generator_ColumnPropNameInTable="highestColumn" msprop:Generator_UserColumnName="highest" type="xs:int" minOccurs="0" />
+              <xs:element name="veryhigh" msprop:Generator_ColumnVarNameInTable="columnveryhigh" msprop:Generator_ColumnPropNameInRow="veryhigh" msprop:Generator_ColumnPropNameInTable="veryhighColumn" msprop:Generator_UserColumnName="veryhigh" type="xs:int" minOccurs="0" />
+              <xs:element name="high" msprop:Generator_ColumnVarNameInTable="columnhigh" msprop:Generator_ColumnPropNameInRow="high" msprop:Generator_ColumnPropNameInTable="highColumn" msprop:Generator_UserColumnName="high" type="xs:int" minOccurs="0" />
+              <xs:element name="normal" msprop:Generator_ColumnVarNameInTable="columnnormal" msprop:Generator_ColumnPropNameInRow="normal" msprop:Generator_ColumnPropNameInTable="normalColumn" msprop:Generator_UserColumnName="normal" type="xs:int" minOccurs="0" />
+              <xs:element name="low" msprop:Generator_ColumnVarNameInTable="columnlow" msprop:Generator_ColumnPropNameInRow="low" msprop:Generator_ColumnPropNameInTable="lowColumn" msprop:Generator_UserColumnName="low" type="xs:int" minOccurs="0" />
+              <xs:element name="lowest" msprop:Generator_ColumnVarNameInTable="columnlowest" msprop:Generator_ColumnPropNameInRow="lowest" msprop:Generator_ColumnPropNameInTable="lowestColumn" msprop:Generator_UserColumnName="lowest" type="xs:int" minOccurs="0" />
+              <xs:element name="complete" msprop:Generator_ColumnVarNameInTable="columncomplete" msprop:Generator_ColumnPropNameInRow="complete" msprop:Generator_ColumnPropNameInTable="completeColumn" msprop:Generator_UserColumnName="complete" type="xs:int" minOccurs="0" />
+              <xs:element name="skipped" msprop:Generator_ColumnVarNameInTable="columnskipped" msprop:Generator_ColumnPropNameInRow="skipped" msprop:Generator_ColumnPropNameInTable="skippedColumn" msprop:Generator_UserColumnName="skipped" type="xs:int" minOccurs="0" />
+              <xs:element name="abandoned" msprop:Generator_ColumnVarNameInTable="columnabandoned" msprop:Generator_ColumnPropNameInRow="abandoned" msprop:Generator_ColumnPropNameInTable="abandonedColumn" msprop:Generator_UserColumnName="abandoned" type="xs:int" minOccurs="0" />
+              <xs:element name="inqueue" msprop:Generator_ColumnVarNameInTable="columninqueue" msprop:Generator_ColumnPropNameInRow="inqueue" msprop:Generator_ColumnPropNameInTable="inqueueColumn" msprop:Generator_UserColumnName="inqueue" type="xs:int" minOccurs="0" />
+              <xs:element name="easy" msprop:Generator_ColumnVarNameInTable="columneasy" msprop:Generator_ColumnPropNameInRow="easy" msprop:Generator_ColumnPropNameInTable="easyColumn" msprop:Generator_UserColumnName="easy" type="xs:int" minOccurs="0" />
+              <xs:element name="hard" msprop:Generator_ColumnVarNameInTable="columnhard" msprop:Generator_ColumnPropNameInRow="hard" msprop:Generator_ColumnPropNameInTable="hardColumn" msprop:Generator_UserColumnName="hard" type="xs:int" minOccurs="0" />
+              <xs:element name="notimportant" msprop:Generator_ColumnVarNameInTable="columnnotimportant" msprop:Generator_ColumnPropNameInRow="notimportant" msprop:Generator_ColumnPropNameInTable="notimportantColumn" msprop:Generator_UserColumnName="notimportant" type="xs:int" minOccurs="0" />
+              <xs:element name="important" msprop:Generator_ColumnVarNameInTable="columnimportant" msprop:Generator_ColumnPropNameInRow="important" msprop:Generator_ColumnPropNameInTable="importantColumn" msprop:Generator_UserColumnName="important" type="xs:int" minOccurs="0" />
+              <xs:element name="tomatoUsedWithinEstimate" msprop:Generator_ColumnVarNameInTable="columntomatoUsedWithinEstimate" msprop:Generator_ColumnPropNameInRow="tomatoUsedWithinEstimate" msprop:Generator_ColumnPropNameInTable="tomatoUsedWithinEstimateColumn" msprop:Generator_UserColumnName="tomatoUsedWithinEstimate" type="xs:int" minOccurs="0" />
+              <xs:element name="normalType" msprop:Generator_ColumnVarNameInTable="columnnormalType" msprop:Generator_ColumnPropNameInRow="normalType" msprop:Generator_ColumnPropNameInTable="normalTypeColumn" msprop:Generator_UserColumnName="normalType" type="xs:string" minOccurs="0" />
+              <xs:element name="unplannedType" msprop:Generator_ColumnVarNameInTable="columnunplannedType" msprop:Generator_ColumnPropNameInRow="unplannedType" msprop:Generator_ColumnPropNameInTable="unplannedTypeColumn" msprop:Generator_UserColumnName="unplannedType" type="xs:string" minOccurs="0" />
+              <xs:element name="taskpoolType" msprop:Generator_ColumnVarNameInTable="columntaskpoolType" msprop:Generator_ColumnPropNameInRow="taskpoolType" msprop:Generator_ColumnPropNameInTable="taskpoolTypeColumn" msprop:Generator_UserColumnName="taskpoolType" type="xs:string" minOccurs="0" />
+              <xs:element name="interruptionType" msprop:Generator_ColumnVarNameInTable="columninterruptionType" msprop:Generator_ColumnPropNameInRow="interruptionType" msprop:Generator_ColumnPropNameInTable="interruptionTypeColumn" msprop:Generator_UserColumnName="interruptionType" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
